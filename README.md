@@ -1,6 +1,6 @@
 # Calabash Brothers
 
-<div style="width:300px">![](calabash.jpg)</div>
+<img src="calabash.jpg" width=300>
 
 Calabash brothers' grandfather has been caught by the snake spirit, in order to save their grandfather, the brothers need to fuse together into a single boy called diamond brother with the powers of all of them to beat the snake spirit. Each calabash brother can chooses whether use their own skill or not when fusing, there are many ways to fuse, but only when they form a tree structure rooted at diamond brother can make damage to the snake spirit. The final score of damage is defined by the sum of all different fused trees, and the score of a single fused tree is defined by the product of all edge weights in the tree.
 
