@@ -2,7 +2,7 @@
 
 <img src="calabash.jpg" width=300>
 
-There are N calabash brothers numbered with 1, 2, ..., N. Each of them has a skill, which they may choose to use or not. So eash of them has two states: positive if he uses the skill and negative if not. For example, if K use his skill, his state is +K, otherwise -K. When the N brothers come together, they can create a new calabash brother, called Diamond brother, numbered with 0. Diamond is a fusion of N brothers and he is incredibly powerful, though he has no skill and only one state. The brothers including Diamond form tree structures, and Diamond is the root. So they are connected by hidden directed edges, which has different weights. The edge weights depend on the two associated brothers and their states. Whenever they form a new tree, the power of Diamond has an addition, which is the product of edge weights in the tree. The total power of Diamond is the summation of all the additions of all the different trees. We wonder how to choose the states of N brothers such that the total power of Diamond is as large as possible.
+There are N calabash brothers numbered with 1, 2, ..., N. Each of them has a skill, which they may choose to use or not. So each of them has two states: positive if he uses the skill and negative if not. For example, if K uses his skill, his state is +K, otherwise -K. When the N brothers come together, they can create a new calabash brother, called Diamond brother, numbered with 0. Diamond is a fusion of N brothers and he is incredibly powerful, though he has no skill and only one state. The brothers including Diamond form tree structures and Diamond is the root. So they are connected by hidden directed edges, which has different weights. The edge weights depend on the two associated brothers and their states. Whenever they form a new tree, the power of Diamond has an addition, which is the product of edge weights in the tree. The total power of Diamond is the summation of all the additions of all the different trees. We wonder how to choose the states of N brothers such that the total power of Diamond is as large as possible.
 
 ## Input
 
@@ -14,7 +14,7 @@ The output has only one line, which contains N integers of the states of our cho
 
 ## Sample
 
-The sampel with the following input has 2 calabash brothers and a Diamond. There are 4 possible choices: -1, -2; -1, +2; +1, -2; +1, +2. The corresponding total power is as follows.
+The sample with the following input has 2 calabash brothers and a Diamond. There are 4 possible choices: -1, -2; -1, +2; +1, -2; +1, +2. The corresponding total power is as follows.
 
 | Choices | All Trees | Total Power |
 |:-------:|:--------------:|:-----------:|
@@ -53,7 +53,7 @@ Your score of the problem positively correlates with the total power of your out
 
 ## Hints
 
-After the states determined, all the chosen states and Diamond form a graph, and the total power is the number of spinning trees (treating the weight of edge as the number of edge), which can be found in O(N<sup>3</sup>) time by Matrix Tree Theorem.
+After the states determined, all the chosen states and Diamond form a graph, and the total power is the number of spanning trees (treating the weight of an edge as the number of the edges), which can be found in O(N<sup>3</sup>) time by Matrix Tree Theorem.
 
 The tractable exact solver maybe doesn't exist. We can employ variant approximation methods. The following is some ideas.
 
@@ -63,11 +63,11 @@ Randomly generate some choices, and then output the maximum total power of them.
 
 ### Greedy Algorithms
 
-Maintain a chosen state set and the fringe from the set to the legal others. First insert 0 into the set, and then greedily choose the maximum edge in the fringe.
+Maintain a chosen state set and the fringe from the set to the legal others. First, insert 0 into the set, and then greedily choose the maximum edge in the fringe.
 
 ### Local Search
 
-Randomly initialize a choice, and then iteratively try to change some states in the choice to make the total power larger.
+Randomly initialize a choice, and then repeatedly try to change some states in the choice to make the total power larger.
 
 ### Dynamic Programming
 
