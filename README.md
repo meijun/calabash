@@ -14,7 +14,7 @@ The output has only one line, which contains N integers of the states of our cho
 
 ## Sample
 
-The sample with the following input has 2 calabash brothers and a Diamond. There are 4 possible choices: -1, -2; -1, +2; +1, -2; +1, +2. The corresponding total power is as follows.
+The sample with the following input has 2 calabash brothers and a Diamond. There are 4 possible choices: -1, -2; -1, +2; +1, -2; +1, +2. The corresponding total powers are as follows.
 
 | Choices | All Trees | Total Power |
 |:-------:|:---------:|:-----------:|
