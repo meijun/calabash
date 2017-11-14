@@ -51,14 +51,24 @@ When we choose +1, +2, we get the maximum total power 0.28. So we should output 
 
 Your score of the problem positively correlates with the total power of your output.
 
-## Hint
+## Hints
 
-Matrix Tree Theorem
+After the states determined, all the chosen states and Diamond form a graph, and the total power is the number of spinning trees (treating the weight of edge as the number of edge), which can be found in O(N<sup>3</sup>) time by Matrix Tree Theorem.
 
-### Random
+The tractable exact solver maybe doesn't exist. We can employ variant approximation methods. The following is some ideas.
 
-### Greedy
+### Randomized Algorithms
+
+Randomly generate some choices, and then output the maximum total power of them.
+
+### Greedy Algorithms
+
+Maintain a chosen state set and the fringe from the set to the legal others. First insert 0 into the set, and then greedily choose the maximum edge in the fringe.
 
 ### Local Search
 
+Randomly initialize a choice, and then iteratively try to change some states in the choice to make the total power larger.
+
 ### Dynamic Programming
+
+Choose a tree structure of brothers first, and then find the best states in the tree using dynamic programming.
