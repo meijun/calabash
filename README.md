@@ -53,7 +53,7 @@ Your score of the problem positively correlates with the total power of your out
 
 ## Hints
 
-After the states determined, all the chosen states and Diamond form a graph, and the total power can be found in O(N<sup>3</sup>) time by [Matrix Tree Theorem](http://people.reed.edu/~davidp/412/handouts/matrix-tree.pdf).
+After the states determined, all the chosen states and Diamond form a graph, and the total power can be found in O(N<sup>3</sup>) time by [matrix-tree theorem](http://people.reed.edu/~davidp/412/handouts/matrix-tree.pdf).
 
 The tractable exact solver may not exist. We can employ various approximation methods. The following are some ideas.
 
