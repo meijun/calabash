@@ -59,7 +59,7 @@ The tractable exact solver may not exist. We can employ various approximation me
 
 ### Randomized Algorithms
 
-Randomly generate some choices, and then output the maximum total power of them.
+Randomly generate some choices and find the maximum total power of them.
 
 ### Greedy Algorithms
 
