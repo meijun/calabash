@@ -49,6 +49,10 @@ When we choose +1, +2, we get the maximum total power 0.28. So we should output 
 +1 +2
 ```
 
+## Starter Code
+
+The starter code [calabash.py](calabash.py) contains a simple solution implemented with Python 2.7 and NumPy, which can be easily installed with [Anaconda](https://www.anaconda.com/download/). After Anaconda installed, we can run `python calabash.py` and paste the sample input into the terminal, then we will get the sample output `+1 +2`. We can also run `python calabash.py < input/sample > output/sample` to read from the file [input/sample](input/sample) and write to the file [output/sample](output/sample).
+
 ## Evaluation
 
 Your score of the problem positively correlates with the total power of your output.
@@ -61,11 +65,11 @@ The tractable exact solver may not exist. We can employ various approximation me
 
 ### Randomized Algorithms
 
-Randomly generate some choices and find the maximum total power of them. This method has been implemented in [calabash.py](calabash.py)
+Randomly generate some choices and find the maximum total power of them. This method has been implemented in [calabash.py](calabash.py).
 
 ### Greedy Algorithms
 
-Similar to [Prim's algorithm](https://en.wikipedia.org/wiki/Prim's_algorithm), start from 0 and greedily choose the maximum avaiable edges.
+Similar to [Prim's algorithm](https://en.wikipedia.org/wiki/Prim's_algorithm), start from 0 and greedily choose the maximum available edges.
 
 ### Local Search
 
