@@ -26,6 +26,7 @@ The sample with the following input has 2 calabash brothers and a Diamond. There
 When we choose +1, +2, we get the maximum total power 0.28. So we should output +1 +2.
 
 ### Sample Input
+
 ```
 2
 -1 -2 0.1
@@ -43,6 +44,7 @@ When we choose +1, +2, we get the maximum total power 0.28. So we should output 
 ```
 
 ### Sample Output
+
 ```
 +1 +2
 ```
@@ -53,13 +55,13 @@ Your score of the problem positively correlates with the total power of your out
 
 ## Hints
 
-After the states determined, all the chosen states and Diamond form a graph, and the total power can be found in O(N<sup>3</sup>) time by [matrix-tree theorem](http://people.reed.edu/~davidp/412/handouts/matrix-tree.pdf).
+After the states determined, all the chosen states and Diamond form a graph, and the total power can be found in O(N<sup>3</sup>) time by [matrix-tree theorem](http://people.reed.edu/~davidp/412/handouts/matrix-tree.pdf), which has been implemented in [calabash.py](calabash.py).
 
 The tractable exact solver may not exist. We can employ various approximation methods. The following are some ideas.
 
 ### Randomized Algorithms
 
-Randomly generate some choices and find the maximum total power of them.
+Randomly generate some choices and find the maximum total power of them. This method has been implemented in [calabash.py](calabash.py)
 
 ### Greedy Algorithms
 
