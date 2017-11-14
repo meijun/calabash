@@ -2,7 +2,7 @@
 
 <img src="calabash.jpg" width=300>
 
-There are N calabash brothers numbered with 1, 2, ..., N. Each of them has a skill, which they may choose to use or not. So each of them has two states: positive if he uses the skill and negative if not. For example, if K uses his skill, his state is +K, otherwise -K. When the N brothers come together, they can create a new calabash brother, called Diamond brother, numbered with 0. Diamond is a fusion of N brothers and he is incredibly powerful, though he has no skill and only one state. The brothers including Diamond form tree structures and Diamond is the root. So they are connected by hidden directed edges, which has different weights. The edge weights depend on the two associated brothers and their states. Whenever they form a new tree, the power of Diamond has an addition, which is the product of edge weights in the tree. The total power of Diamond is the summation of all the additions of all the different trees. We wonder how to choose the states of N brothers such that the total power of Diamond is as large as possible.
+There are N calabash brothers numbered with 1, 2, ..., N. Each of them has a skill, which they may choose to use or not. So each of them has two states: positive if he uses the skill and negative if not. For example, if K uses his skill, his state is +K, otherwise -K. When the N brothers come together, they can create a new calabash brother, called Diamond brother, numbered with 0. Diamond is a fusion of N brothers and he is incredibly powerful, though he has no skill and only one state 0. The brothers including Diamond form various tree structures and Diamond is always the root. So they are connected by hidden directed edges, which has different weights. The edge weights depend on the two associated brothers and their states. Whenever they form a new tree, the power of Diamond has an addition, which is the product of edge weights in the tree. The total power of Diamond is the summation of all the additions of all the different trees. We wonder how to choose the states of N brothers such that the total power of Diamond is as large as possible.
 
 ## Input
 
@@ -53,9 +53,9 @@ Your score of the problem positively correlates with the total power of your out
 
 ## Hints
 
-After the states determined, all the chosen states and Diamond form a graph, and the total power is the number of spanning trees (treating the weight of an edge as the number of the edges), which can be found in O(N<sup>3</sup>) time by Matrix Tree Theorem.
+After the states determined, all the chosen states and Diamond form a graph, and the total power can be found in O(N<sup>3</sup>) time by [Matrix Tree Theorem](http://people.reed.edu/~davidp/412/handouts/matrix-tree.pdf).
 
-The tractable exact solver maybe doesn't exist. We can employ variant approximation methods. The following is some ideas.
+The tractable exact solver may not exist. We can employ various approximation methods. The following are some ideas.
 
 ### Randomized Algorithms
 
@@ -63,7 +63,7 @@ Randomly generate some choices, and then output the maximum total power of them.
 
 ### Greedy Algorithms
 
-Maintain a chosen state set and the fringe from the set to the legal others. First, insert 0 into the set, and then greedily choose the maximum edge in the fringe.
+Similar to [Prim's algorithm](https://en.wikipedia.org/wiki/Prim's_algorithm), start from 0 and greedily choose the maximum avaiable edges.
 
 ### Local Search
 
