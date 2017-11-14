@@ -1,6 +1,6 @@
 # Calabash Brothers
 
-<img src="calabash.jpg" width=300>
+<img src="img/calabash.jpg" width=300>
 
 There are N calabash brothers numbered with 1, 2, ..., N. Each of them has a skill, which they may choose to use or not. So each of them has two states: positive if he uses the skill and negative if not. For example, if K uses his skill, his state is +K, otherwise -K. When the N brothers come together, they can create a new calabash brother, called Diamond brother, numbered with 0. Diamond is a fusion of N brothers and he is incredibly powerful, though he has no skill and only one state 0. The brothers including Diamond form various tree structures and Diamond is always the root. So they are connected by hidden directed edges, which has different weights. The edge weights depend on the two associated brothers and their states. Whenever they form a new tree, the power of Diamond has an addition, which is the product of edge weights in the tree. The total power of Diamond is the summation of all the additions of all the different trees. We wonder how to choose the states of N brothers such that the total power of Diamond is as large as possible.
 
