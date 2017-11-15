@@ -16,12 +16,12 @@ The output has only one line, which contains N integers of the states of our cho
 
 The sample with the following input has 2 calabash brothers and a Diamond. There are 4 possible choices: -1, -2; -1, +2; +1, -2; +1, +2. The corresponding total powers are as follows.
 
-| Choices | All Trees | Total Power |
-|:-------:|:---------:|:-----------:|
-| -1, -2 | <img src="img/00.png" width=300> | 0.1x0.1 + 0.3x0.3 + 0.1x0.3 = 0.13 |
-| -1, +2 | <img src="img/01.png" width=300> | 0.1x0.3 + 0.4x0.2 + 0.1x0.4 = 0.15 |
-| +1, -2 | <img src="img/10.png" width=300> | 0.2x0.4 + 0.3x0.1 + 0.2x0.3 = 0.17 |
-| +1, +2 | <img src="img/11.png" width=300> | 0.2x0.2 + 0.4x0.4 + 0.2x0.4 = 0.28 |
+| Choices |            All Trees             |            Total Power             |
+| :-----: | :------------------------------: | :--------------------------------: |
+| -1, -2  | <img src="img/00.png" width=300> | 0.1x0.1 + 0.3x0.3 + 0.1x0.3 = 0.13 |
+| -1, +2  | <img src="img/01.png" width=300> | 0.1x0.3 + 0.4x0.2 + 0.1x0.4 = 0.15 |
+| +1, -2  | <img src="img/10.png" width=300> | 0.2x0.4 + 0.3x0.1 + 0.2x0.3 = 0.17 |
+| +1, +2  | <img src="img/11.png" width=300> | 0.2x0.2 + 0.4x0.4 + 0.2x0.4 = 0.28 |
 
 When we choose +1, +2, we get the maximum total power 0.28. So we should output +1 +2.
 
@@ -51,11 +51,17 @@ When we choose +1, +2, we get the maximum total power 0.28. So we should output 
 
 ## Getting Started
 
+
+
 The starter code [calabash.py](calabash.py) contains a simple solution implemented with Python 2.7 and NumPy, which can be easily installed with [Anaconda](https://www.anaconda.com/download/). After Anaconda installed, we can run `python calabash.py` and paste the sample input into the terminal, then we will get the sample output +1 +2.
 
 ## Evaluation
 
 Your score of the project positively correlates with the total power of your output. We will give 10 inputs to you to test your solution. For each input, you should write your output to the file under folder [output](output) with the same name as the input. You will get a rank ratio R for each input, and your project score for this input is -2log(R). For example, R = 0.11, which means you are the top 11% among all students in our class, and you will get score -2log(0.11) = 4.415. Your final project score is the summation of all scores of 10 inputs.
+
+### Submitting
+
+Your solution need to be submitted to [Gradebot](https://gradebot.org/). You need to register with your email first. See [Gradebot User's Manual](http://gradebot.org/gradebot/static/user.html) for help.
 
 **IMPORTANT**
 
