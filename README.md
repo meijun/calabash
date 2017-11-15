@@ -61,7 +61,7 @@ Your score of the project positively correlates with the total power of your out
 
 ### Submitting
 
-Your solution need to be submitted to [Gradebot](https://gradebot.org/). You need to register with your email first. See [Gradebot User's Manual](http://gradebot.org/gradebot/static/user.html) for help.
+Your solutions should be submitted to [Gradebot](https://gradebot.org/). See [Gradebot User's Manual](http://gradebot.org/gradebot/static/user.html) for help.
 
 **IMPORTANT**
 
