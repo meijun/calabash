@@ -51,7 +51,7 @@ When we choose +1, +2, we get the maximum total power 0.28. So we should output 
 
 ## Getting Started
 
-The starter code [calabash.py](calabash.py) contains a simple solution implemented with Python 2.7 and NumPy, which can be easily installed with [Anaconda](https://www.anaconda.com/download/). After Anaconda installed, we can run `python calabash.py` and paste the sample input into the terminal, then we will get the sample output `+1 +2`. We can also run `python calabash.py < input/sample > output/sample` to read from the file [input/sample](input/sample) and write to the file [output/sample](output/sample).
+The starter code [calabash.py](calabash.py) contains a simple solution implemented with Python 2.7 and NumPy, which can be easily installed with [Anaconda](https://www.anaconda.com/download/). After Anaconda installed, we can run `python calabash.py` and paste the sample input into the terminal, then we will get the sample output +1 +2. We can also run `python calabash.py < input/sample > output/sample` to read from the file [input/sample](input/sample) and write to the file [output/sample](output/sample).
 
 ## Evaluation
 
