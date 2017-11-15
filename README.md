@@ -55,7 +55,12 @@ The starter code [calabash.py](calabash.py) contains a simple solution implement
 
 ## Evaluation
 
-Your score of the problem positively correlates with the total power of your output. We will give 10 inputs to you to test your solution. For each input, you should write your output to the file under folder [output](output) with the same name as the input. You will get a ratio R for each input, for example R = 0.2, which means you are the top 0.2 among all students in our class. Your project score for this input is -2log(R). Your final project score is the summation of all scores of 10 inputs.
+Your score of the problem positively correlates with the total power of your output. We will give 10 inputs to you to test your solution. For each input, you should write your output to the file under folder [output](output) with the same name as the input. You will get a ratio R for each input, for example, R = 0.2, which means you are the top 0.2 among all students in our class. Your project score for this input is -2log(R). Your final project score is the summation of all scores of 10 inputs.
+
+*IMPORTANT*
+
+- When you submit solutions, you should also submit all the source code you write, otherwise, you will be treated as cheating.
+- It's your responsibility to reproduce your results. Any irreproducible result will be treated as cheating.
 
 ## Hints
 
