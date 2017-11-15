@@ -60,7 +60,7 @@ Your score of the project positively correlates with the total power of your out
 **IMPORTANT**
 
 - When you submit solutions, you should also submit all the source code you write, otherwise, you will be treated as cheating.
-- It's your responsibility to reproduce your results. Any irreproducible result will be treated as cheating.
+- It's your responsibility to reproduce your results with your submitted source code. Any irreproducible result will be treated as cheating.
 
 ## Hints
 
