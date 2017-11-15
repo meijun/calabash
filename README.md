@@ -2,7 +2,7 @@
 
 <img src="img/calabash.jpg" width=300>
 
-There are N calabash brothers numbered with 1, 2, ..., N. Each of them has a skill, which they may choose to use or not. So each of them has two states: positive if he uses the skill and negative if not. For example, if K uses his skill, his state is +K, otherwise -K. When the N brothers come together, they can create a new calabash brother, called Diamond brother, numbered with 0. Diamond is a fusion of N brothers and he is incredibly powerful, though he has no skill and only one state 0. The brothers including Diamond form various tree structures and Diamond is always the root. So they are connected by hidden directed edges, which has different weights. The edge weights depend on the two associated brothers and their states. Whenever they form a new tree, the power of Diamond has an addition, which is the product of edge weights in the tree. The total power of Diamond is the summation of all the additions of all the different trees. We wonder how to choose the states of N brothers such that the total power of Diamond is as large as possible.
+There are N calabash brothers numbered with 1, 2, ..., N. Each of them has a skill, which they may choose to use or not. So each of them has two states: positive if he uses the skill and negative if not. For example, if K uses his skill, his state is +K, otherwise -K. When the N brothers come together, they can create a new calabash brother, called Diamond brother, numbered with 0. Diamond is a fusion of N brothers and he is incredibly powerful, though he has no skill and only one state 0. Your work is to determine the states of N brothers. Once N states decided, the brothers including Diamond form various tree structures and Diamond is always the root. So they are connected by hidden directed edges, which has different weights. The edge weights depend on the two associated brothers and their states. Whenever they form a new tree, the power of Diamond has an addition, which is the product of edge weights in the tree. The total power of Diamond is the summation of all the additions of all the different trees. We wonder how to choose the states of N brothers such that the total power of Diamond is as large as possible.
 
 ## Input
 
@@ -51,11 +51,11 @@ When we choose +1, +2, we get the maximum total power 0.28. So we should output 
 
 ## Getting Started
 
-The starter code [calabash.py](calabash.py) contains a simple solution implemented with Python 2.7 and NumPy, which can be easily installed with [Anaconda](https://www.anaconda.com/download/). After Anaconda installed, we can run `python calabash.py` and paste the sample input into the terminal, then we will get the sample output +1 +2. We can also run `python calabash.py < input/sample > output/sample` to read from the file [input/sample](input/sample) and write to the file [output/sample](output/sample).
+The starter code [calabash.py](calabash.py) contains a simple solution implemented with Python 2.7 and NumPy, which can be easily installed with [Anaconda](https://www.anaconda.com/download/). After Anaconda installed, we can run `python calabash.py` and paste the sample input into the terminal, then we will get the sample output +1 +2.
 
 ## Evaluation
 
-Your score of the problem positively correlates with the total power of your output.
+Your score of the problem positively correlates with the total power of your output. We will give 10 inputs to you to test your solution. For each input, you should write your output to the file under folder [output](output) with the same name as the input. You will get a ratio R for each input, for example R = 0.2, which means you are the top 0.2 among all students in our class. Your project score for this input is -2log(R). Your final project score is the summation of all scores of 10 inputs.
 
 ## Hints
 
