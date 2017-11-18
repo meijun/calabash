@@ -62,7 +62,7 @@ Your score of the project positively correlates with the total power of your out
 Submit your output for each input to [Gradebot](https://gradebot.org/). See [Gradebot User's Manual](http://gradebot.org/gradebot/static/user.html) for help. Below is the time table of each input.
 
 |  Input  |    Start   |     End    |
-| :---—-: | :--------: | :--------: |
+| :-----: | :--------: | :--------: |
 |    1    | 2017-11-20 | 2017-12-10 |
 |    2    | 2017-11-27 | 2017-12-17 |
 |    3    | 2017-12-04 | 2017-12-24 |
