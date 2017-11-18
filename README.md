@@ -59,7 +59,20 @@ Your score of the project positively correlates with the total power of your out
 
 ### Submitting
 
-Submit your output for each input to [Gradebot](https://gradebot.org/). See [Gradebot User's Manual](http://gradebot.org/gradebot/static/user.html) for help.
+Submit your output for each input to [Gradebot](https://gradebot.org/). See [Gradebot User's Manual](http://gradebot.org/gradebot/static/user.html) for help. Below is the time table of each input.
+
+| Input | Start | End |
+|:-----:|:-----:|:---:|
+| 1 | 2017-11-20 | 2017-12-10 |
+| 2 | 2017-11-27 | 2017-12-17 |
+| 3 | 2017-12-04 | 2017-12-24 |
+| 4 | 2017-12-11 | 2017-12-31 |
+| 5 | 2017-12-18 | 2018-01-07 |
+| 6 | 2018-01-01 | 2018-01-21 |
+| 7 | 2018-01-01 | 2018-01-21 |
+| 8 | 2018-01-01 | 2018-01-21 |
+| 9 | 2018-01-01 | 2018-01-21 |
+| 10 | 2018-01-01 | 2018-01-21 |
 
 **IMPORTANT**
 
@@ -70,9 +83,9 @@ Submit your output for each input to [Gradebot](https://gradebot.org/). See [Gra
 
 ## Hints
 
-After the states are determined, all the chosen states and Diamond form a graph, and the power of diamond with the chosen states can be found in O(N<sup>3</sup>) time by the [matrix-tree theorem](http://people.reed.edu/~davidp/412/handouts/matrix-tree.pdf), which has been implemented in [calabash.py](calabash.py).
+After the states are determined, all the chosen states and Diamond form a graph, and the power of Diamond with the chosen states can be found in O(N<sup>3</sup>) time by the [matrix-tree theorem](http://people.reed.edu/~davidp/412/handouts/matrix-tree.pdf), which has been implemented in [calabash.py](calabash.py).
 
-A tractable exact solver may not exist. In fact, it can be proved that this problem is [#P-hard](https://en.wikipedia.org/wiki/Sharp-P-complete). Instead of exactly solving the problem, you can employ various approximation strategies. The following are some ideas that you may consider.
+A tractable exact solver may not exist. Instead of exactly solving the problem, you can employ various approximation strategies. The following are some ideas that you may consider.
 
 ### Randomized Algorithms
 

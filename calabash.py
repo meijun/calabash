@@ -1,5 +1,5 @@
 def power_by_mtt(state, edges):
-    """Calculate the total power of the state, by matrix-tree theorem.
+    """Calculate the total power of the state, by the matrix-tree theorem.
     """
     import numpy as np
 
