@@ -55,24 +55,24 @@ The starter code [calabash.py](calabash.py) contains a very simple solution impl
 
 ## Evaluation
 
-Your score of the project positively correlates with the total power of your output. We will give 10 inputs to you to test your algorithm. For each input, you should write your output to the file under folder [output](output) with the same name as the input. You will get a percentile rank R for each input, and your project score for this input is -2log(R). For example, R = 0.11, which means you are the top 11% among all students in our class, and you will get score -2log(0.11) = 4.415. Your final project score is the summation of your scores of the 10 inputs.
+Your score of the project positively correlates with the total power of your output. We will give 10 inputs to you to test your algorithm. For each input, you should write your output to the file under the folder [output](output) with the same name as the input. You will get a percentile rank R for each input, and your project score for this input is -2log(R). For example, R = 0.11, which means you are the top 11% among all students in our class, and you will get score -2log(0.11) = 4.415. Your final project score is the summation of your scores of the 10 inputs.
 
 ### Submitting
 
-Submit your output for each input to [Gradebot](https://gradebot.org/). See [Gradebot User's Manual](http://gradebot.org/gradebot/static/user.html) for help. Below is the time table of each input.
+Submit your output for each input to [Gradebot](https://gradebot.org/). See [Gradebot User's Manual](http://gradebot.org/gradebot/static/user.html) for help. Below is the time table of each input. We will release each input under the folder [input](input) on its start day.
 
-|  Input  |    Start   |     End    |
-| :-----: | :--------: | :--------: |
-|    1    | 2017-11-20 | 2017-12-10 |
-|    2    | 2017-11-27 | 2017-12-17 |
-|    3    | 2017-12-04 | 2017-12-24 |
-|    4    | 2017-12-11 | 2017-12-31 |
-|    5    | 2017-12-18 | 2018-01-07 |
-|    6    | 2018-12-25 | 2018-01-14 |
-|    7    | 2018-01-01 | 2018-01-21 |
-|    8    | 2018-01-01 | 2018-01-21 |
-|    9    | 2018-01-01 | 2018-01-21 |
-|    10   | 2018-01-01 | 2018-01-21 |
+|  Input  |   N   |    Start   |     End    |
+| :-----: | :---: | :--------: | :--------: |
+|    1    | 100   | 2017-11-20 | 2017-12-10 |
+|    2    | 180   | 2017-11-27 | 2017-12-17 |
+|    3    | 500   | 2017-12-04 | 2017-12-24 |
+|    4    | 1058  | 2017-12-11 | 2017-12-31 |
+|    5    | 69    | 2017-12-18 | 2018-01-07 |
+|    6    | 100   | 2018-12-25 | 2018-01-14 |
+|    7    | 294   | 2018-01-01 | 2018-01-21 |
+|    8    | 500   | 2018-01-01 | 2018-01-21 |
+|    9    | 910   | 2018-01-01 | 2018-01-21 |
+|    10   | 1556  | 2018-01-01 | 2018-01-21 |
 
 **IMPORTANT**
 
